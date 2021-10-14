@@ -18,10 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'CJP-2255.jpg',
-  paragraphOne: 'This is my personal website to document my current and past projects. These projects range from html and css web development to embedded systems pid controlled devices, from path-finding game mechanics to ultrasonic guided robots. Thanks for checking it out! I hope you can find inspiration for your own projects!',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'I am a Computer Engineer with significant experience in Embedded Systems and Robotics. I am skilled in low level programming languages, such as C and C++, specifically in the realm of microprocessor development. Along with those main sets of skills I have practice in many higher level languages, such as Java and Javascript as well as a comprehensive understanding of Linux. I am Passionate about the world where Software and Hardware collide.',
+  paragraphTwo: 'This website is a portfolio of my past and current personal projects',
+  paragraphThree: 'These projects range from react web development to embedded system pid controlled devices, from path-finding game mechanics to ultrasonic guided robots. Thanks for checking it out! I hope you can find inspiration for your own projects!',
   resume: 'https://drive.google.com/file/d/1l5wNkFH3ZKtFe7Qc8XhxJ5tn6xVZGcpV/view?usp=sharing', // if no resume, the button will not show up
+  cv: 'https://drive.google.com/file/d/1l5wNkFH3ZKtFe7Qc8XhxJ5tn6xVZGcpV/view?usp=sharing',
 };
 
 // PROJECTS DATA
@@ -40,6 +41,15 @@ export const projectsData = [
     img: 'numvertlogo.png',
     title: 'numvert',
     info: 'A cli program to convert numbers between bases',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: '',
+    info: '',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
