@@ -32,7 +32,7 @@ export const projectsData = [
     img: 'htmlchesslogo.png',
     title: 'HTMLCHESS',
     info: 'An html file that can beat you at chess (probably...)',
-    info2: 'A stand alone html file that uses the stockfish.js engine and the content delivery network (CDN) to provide a competitive chess game',
+    info2: 'A stand alone html file that uses the stockfish engine and the content delivery network (CDN) to provide a competitive chess game from a single html file.',
     url: '/htmlchess',
     repo: 'https://github.com/dj-ryan/htmlchess', // if no repo, the button will not show up
   },
@@ -41,7 +41,7 @@ export const projectsData = [
     img: 'numvertlogo.png',
     title: 'numvert',
     info: 'A cli program to convert numbers between bases',
-    info2: '',
+    info2: 'Written in C++ this program ',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
