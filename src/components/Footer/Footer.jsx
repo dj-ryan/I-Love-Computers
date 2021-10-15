@@ -36,7 +36,7 @@ const Footer = () => {
               );
             })}
         </div>
-        <hr />
+        <hr/>
         <p className="footer__text">
           © {new Date().getFullYear()} - David Ryan{' '}
         </p>
