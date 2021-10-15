@@ -66,6 +66,11 @@ export const projectsData = [
 ];
 
 // CONTACT DATA
+export const moreProjectsData = {
+  btn: 'More Projects',
+};
+
+// CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',

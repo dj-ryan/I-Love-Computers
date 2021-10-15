@@ -3,7 +3,7 @@ import React from 'react'
 const htmlchess = () => {
     return (
         <div>
-            test
+            html chess
         </div>
     )
 }
