@@ -1,13 +1,12 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
-import App from '../components/App';
-import { headData } from '../mock/data';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import MoreApp from '../components/MoreApp';
 import '../style/main.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Helmet } from 'react-helmet';
+import { headData } from '../mock/data';
 
 export default () => {
   const { title, lang, description } = headData;
-
   return (
     <>
       <Helmet>
@@ -17,7 +16,7 @@ export default () => {
         <meta name="description" content={description} />
       </Helmet>
 
-      <App />
+      <MoreApp />
     </>
   );
 };
