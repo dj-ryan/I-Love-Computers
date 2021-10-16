@@ -48,15 +48,6 @@ const Projects = () => {
                         <p>{info}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      {/* <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        Details
-                      </a> */}
-
                       <Link to={url} className="cta-btn cta-btn--hero">
                         Details
                       </Link>
@@ -97,31 +88,6 @@ const Projects = () => {
                           </div>
                         </Tilt>
                       </Link>
-
-                      {/* <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
-                        <Tilt
-                          options={{
-                            reverse: false,
-                            max: 8,
-                            perspective: 1000,
-                            scale: 1,
-                            speed: 300,
-                            transition: true,
-                            axis: null,
-                            reset: true,
-                            easing: 'cubic-bezier(.03,.98,.52,.99)',
-                          }}
-                        >
-                          <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
-                          </div>
-                        </Tilt>
-                      </a> */}
                     </div>
                   </Fade>
                 </Col>

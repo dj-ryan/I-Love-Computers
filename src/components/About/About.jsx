@@ -5,9 +5,12 @@ import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
+import { Link } from 'gatsby';
+
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume, cv } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume, links, readMore, contact } =
+    about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -41,6 +44,23 @@ const About = () => {
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
                 <p className="about-wrapper__info-text">{paragraphThree}</p>
                 <span className="d-flex mt-3">
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn--resume"
+                    href={readMore}
+                  >
+                    Read More
+                  </Link>
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn--resume"
+                    href={contact}
+                  >
+                    Contact
+                  </Link>
+
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -50,14 +70,14 @@ const About = () => {
                     Resume
                   </a>
 
-                  <a
+                  <Link
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href={cv}
+                    href={links}
                   >
-                    CV
-                  </a>
+                    Links
+                  </Link>
                 </span>
               </div>
             </Fade>
