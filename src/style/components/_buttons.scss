@@ -102,6 +102,25 @@
   }
 }
 
+.cta-btn--nav-bar-select {
+
+  border: 2px solid $white-color;
+  margin-right: 10px;
+  color: $secondary-color;
+  text-decoration: none;
+  background: $white-color;
+  
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+  
+
+}
 
 .cta-btn--more-projects {
   background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);

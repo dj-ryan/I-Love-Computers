@@ -15,6 +15,7 @@ function moreProjects() {
   const [projects, setProjects] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
+  const currentPage = "moreProjects";
 
   useEffect(() => {
     setProjects([...moreProjectsData]);
@@ -24,7 +25,7 @@ function moreProjects() {
 
   return (
     <>
-      <NavBar />
+      <NavBar values={{currentPage}}/>
 
       <PortfolioProvider value={{ projects, contact, footer }}>
         <MoreProjects />
