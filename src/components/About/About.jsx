@@ -40,27 +40,25 @@ const About = () => {
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
                 <p className="about-wrapper__info-text">{paragraphThree}</p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
+                <span className="d-flex mt-3">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn--resume"
+                    href={resume}
+                  >
+                    Resume
+                  </a>
 
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={cv}
-                    >
-                      CV
-                    </a>
-                  </span>
-                )}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn--resume"
+                    href={cv}
+                  >
+                    CV
+                  </a>
+                </span>
               </div>
             </Fade>
           </Col>

@@ -2,19 +2,18 @@ import React, { useState, useEffect } from 'react';
 import Hero from './Hero/Hero';
 import About from './About/About';
 import Projects from './Projects/Projects';
-import MoreProjects from './More/MoreProjects'
+import MoreProjectsBtn from './More/MoreProjectsBtn';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
 
-import { heroData, aboutData, projectsData, moreProjectsData, contactData, footerData } from '../mock/data';
+import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
 
 function App() {
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
-  //const [moreProjects, setMoreProjects] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
 
@@ -22,7 +21,6 @@ function App() {
     setHero({ ...heroData });
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
-    //setMoreProjects([...moreProjectsData])
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
@@ -32,7 +30,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      <MoreProjects />
+      <MoreProjectsBtn />
       <Contact />
       <Footer />
     </PortfolioProvider>

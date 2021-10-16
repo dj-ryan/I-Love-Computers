@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const htmlchess = () => {
-    return (
-        <div>
-            html chess
-        </div>
-    )
-}
+  return <div>html chess</div>;
+};
 
-export default htmlchess
+export default htmlchess;
