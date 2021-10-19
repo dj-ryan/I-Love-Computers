@@ -29,10 +29,18 @@ export const aboutData = {
   contact: '/contact',
 };
 
-
-
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'numvert_logo.png',
+    title: 'numvert',
+    info: 'A cli program to convert numbers between bases',
+    info2:
+      'Written in C++, this program quickly converts numbers between Decimal, Hexadecimal, and Binary bases using low-level standard library C functions.',
+    url: '',
+    repo: 'https://github.com/dj-ryan/numvert', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'htmlchesslogo.png',
@@ -43,15 +51,7 @@ export const projectsData = [
     url: '/htmlchess',
     repo: 'https://github.com/dj-ryan/htmlchess', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'numvert_logo.png',
-    title: 'numvert',
-    info: 'A cli program to convert numbers between bases',
-    info2: 'Written in C++, this program quickly converts numbers between Decimal, Hexadecimal, and Binary bases using low-level standard library C functions.',
-    url: '',
-    repo: 'https://github.com/dj-ryan/numvert', // if no repo, the button will not show up
-  },
+
   {
     id: nanoid(),
     img: 'LDC1101_head.jpg',

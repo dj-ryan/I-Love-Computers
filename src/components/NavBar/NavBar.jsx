@@ -16,7 +16,7 @@ console.log(currentPage)
           <Navbar>
             <Container>
               <Link className="cta-btn cta-btn--nav-bar" to="/">
-                MAIN PAGE
+                HOME
               </Link>
               <Link className="cta-btn cta-btn--nav-bar-select" to="/projects">
                 Projects
