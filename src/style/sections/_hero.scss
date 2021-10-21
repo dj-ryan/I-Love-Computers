@@ -1,3 +1,5 @@
+//@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
 #hero {
   min-height: 100vh;
   height: 100vh;
@@ -62,4 +64,44 @@
       }
     }
   }
+
+
+// styling used for under construction msg
+
+.warning-msg,
+.error-msg {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 15px;
 }
+
+.warning-msg {
+  color: #9f6000;
+  background-color: #feefb3;
+  font-size: x-large;
+}
+.error-msg {
+  color: #d8000c;
+  background-color: #ffbaba;
+
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: '\f071';
+}
+
+}
+
+

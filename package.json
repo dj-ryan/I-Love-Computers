@@ -38,6 +38,7 @@
     "react-tilt": "^0.1.4"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.15.8",
     "babel-eslint": "^10.1.0",
     "eslint": "8.0.1",
     "eslint-config-airbnb": "^18.2.1",

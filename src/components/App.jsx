@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Hero from './Hero/Hero';
 import About from './About/About';
 import Projects from './Projects/Projects';
-import MoreProjectsBtn from './More/MoreProjectsBtn';
+import MoreProjectsBtn from './MoreProjectsBtn/MoreProjectsBtn';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 
