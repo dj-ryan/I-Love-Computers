@@ -70,14 +70,14 @@ const About = () => {
                     Resume
                   </a>
 
-                  {/* <Link
+                  <Link
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
                     href={links}
                   >
                     Links
-                  </Link> */}
+                  </Link>
                 </span>
               </div>
             </Fade>
