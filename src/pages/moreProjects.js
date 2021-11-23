@@ -1,5 +1,5 @@
 import React from 'react';
-import MoreApp from '../components/MoreApp';
+import MoreProjectsApp from '../components/MoreProjectsApp';
 import '../style/main.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Helmet } from 'react-helmet';
@@ -16,7 +16,7 @@ export default () => {
         <meta name="description" content={description} />
       </Helmet>
 
-      <MoreApp />
+      <MoreProjectsApp />
     </>
   );
 };

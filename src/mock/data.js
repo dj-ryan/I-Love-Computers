@@ -75,14 +75,13 @@ export const projectsData = [
 // MORE PROJECT DATA
 export const moreProjectsData = [
   {
-    id: nanoid(),
-    img: 'htmlchesslogo.png',
-    title: 'HTMLCHESS',
-    info: 'An html file that can beat you at chess (probably...)',
-    info2:
-      'A stand alone html file that uses the stockfish engine and the content delivery network (CDN) to provide a competitive chess game from a single html file.',
-    url: '/htmlchess',
-    repo: 'https://github.com/dj-ryan/htmlchess', // if no repo, the button will not show up
+  id: nanoid(),
+  img: 'burnit_logo.png',
+  title: 'burnit',
+  info: 'A simple CPU stress tester written in c++',
+  info2: 'The algorithm that is implemented to produce a heavy load on the CPU is the Sieve of Eratosthenes. This very simple algorithm calculates (or rather finds) all prime numbers up to a pre-determined limit.',
+  url: '/burnit',
+  repo: 'https://github.com/dj-ryan/burnit',
   },
 ];
 
